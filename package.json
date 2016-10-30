@@ -1,6 +1,6 @@
 {
   "name": "human-timestamp",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Cli to convert timestamp to readable date.",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
   ],
   "bin": {
     "human-timestamp": "index.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "moment": "^2.15.2"
   },
   "author": "Letian",
   "license": "MIT"

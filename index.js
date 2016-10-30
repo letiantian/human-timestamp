@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var moment = require('moment'),
     argv = require('minimist')(process.argv.slice(2)),
     numbers = argv._,
